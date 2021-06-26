@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #a3804b;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* --- navigation bar --- */
+
+.navbar {
+    background: #111112
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link: hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* --- header --- */
+
+.header {
+    background-image: url('https://img.wallpapersafari.com/desktop/1680/1050/8/70/JHgsun.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    mid-height: 100%;
+    mid-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.0);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, 5%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #000;
+}
+.description h3 {
+    color: #111;
+}
+
+.description p {
+    color: #222;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #cc994d;
+    background: #cc994d;
+    border-radius: 0;
+    color: #222;
+}
+
+.description button:hover {
+    border:1px solid #333;
+    background: #333;
+    color: #000;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    transform: translate(0%, 200%);
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.appimage {
+    border-radius: 20px;
+}
+
+.download {
+    font-size: 2.1rem;
+}
+
+a {
+    color: #edc68c;
+}
